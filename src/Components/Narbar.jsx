@@ -21,16 +21,14 @@ const Navbar = () => {
                             <div className="container-fluid">
                                 <NavLink
                                     exact className="navbar-brand" to="/">Snappic</NavLink>
-                                
-                                
-                                <div class="dropdown ">
-                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div className="dropdown ">
+                                    <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         Features
                                  </button>
                                   
                                  
                                  
-                                 <ul class="dropdown-menu ty" aria-labelledby="dropdownMenuButton1">
+                                 <ul className="dropdown-menu ty" aria-labelledby="dropdownMenuButton1">
                                      
                                      <div className="row">
                                          <div className="col-8">
@@ -56,7 +54,7 @@ const Navbar = () => {
                                          <div className="col-2">
                                          
                                      
-                                     <button class="btn"  type="button" id="hhh" daria-expanded="false">
+                                     <button className="btn"  type="button" id="hhh" daria-expanded="false">
                                          Pro
                                          <p>Starting out only need basic plans?</p>
                                              </button>
@@ -140,14 +138,7 @@ const Navbar = () => {
                                                  <p>Fully intergrated wired or wireless solution for mac and windows</p>
                                              </button>
                                          </div>
-                                             
-                                            
-                                            
-
-                                         
-
-                                       
-                                             <div className="col-2">
+                                            <div className="col-2">
                                                  <button class="btn" type="button" id="ls" daria-expanded="false">
                                                  <p id="pr">SlideShow</p>
                                                  <p>Stream media from your events to an external monitor TV or Projector</p>
@@ -205,11 +196,11 @@ const Navbar = () => {
                              
                                 
                                 
-                             <div class="dropdown ">
-                                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                             <div className="dropdown ">
+                                 <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                      USECASES
                                  </button>
-                                 <ul class="dropdown-menu tt" aria-labelledby="dropdownMenuButton1">
+                                 <ul className="dropdown-menu tt" aria-labelledby="dropdownMenuButton1">
                                      <div className="row">
                                          <div className="col-2">
                                              <p>Use Casses</p>
