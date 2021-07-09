@@ -1,0 +1,16 @@
+.container {
+    /* Background color */
+    background-color: #3d6ea9;
+
+    /* You can use gradient background color such as
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 20% 40%;
+    border-bottom-right-radius: 20% 30%;
+    border-top-left-radius: 30% 30%;
+    border-top-right-radius: 29% 30%;
+    color: white;
+   
+
+}
